@@ -24,12 +24,12 @@ server:
   port: 7001 #注册中心占用7001端口，冒号后面必须要有空格
   
 spring: 
-  profiles: 
+  profiles: test
   application:
     name: microservicecloud-config-eureka-client
     
 eureka:
-  instance: test
+  instance: 
     hostname: eureka7001.com #冒号后面必须要有空格,eureka服务端的实例名称，来至hosts文件的映射
   client:
     register-with-eureka: false #false表示不向注册中心注册自己。
