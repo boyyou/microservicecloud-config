@@ -26,7 +26,7 @@ mybatis:
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                   # mapper映射文件
 eureka:
-  client:  #客户端注册进eureka服务列表内
+  client:                                               # 客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka        # 单机版eureka注册地址配置
   instance: 
@@ -61,7 +61,7 @@ mybatis:
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                   # mapper映射文件
 eureka:
-  client:  #客户端注册进eureka服务列表内
+  client:                                               # 客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka        # 单机版eureka注册地址配置
   instance: 
