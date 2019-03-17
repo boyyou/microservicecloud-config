@@ -28,7 +28,7 @@ mybatis:
 eureka:
   client:  #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka        # 单机版eureka注册地址配置
+      defaultZone: http://eureka7001.com:7001/eureka        # 单机版eureka注册地址配置
   instance: 
     instance-id: microservicecloud-dept8001              # 自定义服务名称信息(即eureka的页面中status列的名字修改)
     prefer-ip-address: true                             # 访问路径可以显示IP地址(即在eureka页面中我们把鼠标放在status列的某个名称上在浏览器左下角会显示服务的ip地址)
@@ -63,7 +63,7 @@ mybatis:
 eureka:
   client:  #客户端注册进eureka服务列表内
     service-url:
-      defaultZone: http://localhost:7001/eureka        # 单机版eureka注册地址配置
+      defaultZone: http://eureka7001.com:7001/eureka        # 单机版eureka注册地址配置
   instance: 
     instance-id: microservicecloud-dept8001              # 自定义服务名称信息(即eureka的页面中status列的名字修改)
     prefer-ip-address: true                             # 访问路径可以显示IP地址(即在eureka页面中我们把鼠标放在status列的某个名称上在浏览器左下角会显示服务的ip地址)
